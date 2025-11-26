@@ -48,20 +48,22 @@ D Boss`,
   },
   {
     id: "friend2",
-    displayName: "Friend Two",
-    nickname: "The Comedian",
-    secretCode: "laugh456",
-    letterTitle: "To the one who made us laugh through it all",
+    displayName: "Rakshitha",
+    nickname: "The Water like Friend",
+    secretCode: "rakshith",
+    letterTitle: "To the one who is always positive ans supported me in my tough times",
     letterText: `Hey You,
+You are not just a friend but a rare gem in my life. 
+				   
+When I was at my lowest, you stood by me, reminding me that I wasn’t alone. 
+				   
+Your kindness, strength, and warmth mean the world to me. 
+				   
+I just want to say—thank you for being you. 
+				   
+Wishing you endless happiness, love, and all the joy you bring to others.
 
-If laughter is the best medicine, then you're the reason none of us had a breakdown during engineering. Seriously. I don't think I can count the number of times your perfectly-timed joke turned a stressful situation into a hilarious memory.
-
-Remember that presentation disaster in third year? We were all panicking, the projector wasn't working, and the professor was getting impatient. And then you made that comment that had the entire class laughing, including the professor. Suddenly, nothing seemed so bad anymore. That's your superpower—turning tension into joy.
-
-But beyond the jokes and the pranks, you were always there when things got real. You knew when to crack a joke and when to just sit with us in silence. You have this incredible ability to read the room and give people exactly what they need, whether it's a laugh or a listening ear.
-
-Thank you for being the light in our darkest moments. Thank you for reminding us not to take life too seriously. Thank you for being unapologetically yourself and giving us permission to do the same.
-
+Thank you for being the light in our darkest moments. Thank you for reminding us not to take life too seriously.
 The world needs more people like you. Keep spreading that joy wherever you go.
 
 Forever grateful,
@@ -80,26 +82,26 @@ Your Friend`,
   },
   {
     id: "friend3",
-    displayName: "Friend Three",
-    nickname: "The Organizer",
-    secretCode: "plan789",
+    displayName: "Spandana",
+    nickname: "The Charm",
+    secretCode: "spanbts",
     letterTitle: "To the one who kept us all together",
     letterText: `Dear Wonderful Human,
 
-Let's be honest—without you, we would have been a complete mess. You were the glue that held our chaotic group together, the one who remembered birthdays, planned meetups, and made sure nobody felt left out.
+Let's be honest—without you, we would have been a complete mess. I mean i had already told you everything in that letter, but once again thank you for coming
 
-I still marvel at how you managed to keep track of everyone's schedules, organize group studies, and somehow ensure we all showed up to the right place at the right time. While the rest of us were barely keeping our own lives together, you were out there making sure the entire group stayed connected.
+into my life and making it so much better. Yes, i had fallen for you, but that is a different story. But the friendship we share is something I truly cherish.
 
-But what I admire most isn't your organizational skills (though they're impressive). It's your heart. You care so deeply about people. You notice when someone's quiet, when someone's struggling, when someone needs to be included. You make people feel valued and seen, and that's a gift.
+That is why I have an album made for you in google photos, just not to forget you until i take my last breath.
 
-These four years wouldn't have been the same without your planning, your care, and your incredible ability to turn a random group of individuals into a family. Every gathering, every trip, every memory we made as a group—you made it happen.
+At last, If you still think i still have feelings for you, No!. I realized how much painful it is to lose a friend by falling for them. So, I promise to be just a very good and close friend and nothing more.
 
-Thank you for being our anchor. Thank you for caring. Thank you for making sure we all stayed connected through the chaos.
+Do not think that if i get closer he may develop feelings for you again. I have way bigger things to achieve in my life.
 
-You're truly special, and I hope you never forget that.
+You're truly special, and I hope you never forget that and me forever.
 
-With deep appreciation,
-Your Friend`,
+With deep love and gratitude,
+Your chingu`,
     profileImage: "/images/friend3.jpg",
     traits: [
       "Most likely to have a backup plan for the backup plan",

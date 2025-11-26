@@ -43,8 +43,16 @@ export function FriendsSection() {
                 onClick={() => setSelectedFriend(friend.id)}
               >
                 <CardContent className="p-6">
-                  <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4">
-                    <User size={48} weight="fill" className="text-white" />
+                  <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4 overflow-hidden">
+                    {friend.profileImage ? (
+                      <img 
+                        src={friend.profileImage} 
+                        alt={friend.displayName}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <User size={48} weight="fill" className="text-white" />
+                    )}
                   </div>
 
                   <h3 className="text-xl font-bold text-foreground text-center mb-2">
@@ -85,8 +93,16 @@ export function FriendsSection() {
             <div>
               <div className="flex justify-between items-start mb-6">
                 <div className="flex items-center gap-4">
-                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                    <User size={40} weight="fill" className="text-white" />
+                  <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center overflow-hidden">
+                    {friend.profileImage ? (
+                      <img 
+                        src={friend.profileImage} 
+                        alt={friend.displayName}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <User size={40} weight="fill" className="text-white" />
+                    )}
                   </div>
                   <div>
                     <h3 className="text-3xl font-bold text-foreground">

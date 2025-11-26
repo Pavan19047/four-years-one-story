@@ -80,8 +80,16 @@ export function LettersSection() {
                     onClick={() => handleFriendSelect(friend.id)}
                   >
                     <CardContent className="p-6 text-center">
-                      <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4">
-                        <User size={40} weight="fill" className="text-white" />
+                      <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4 overflow-hidden">
+                        {friend.profileImage ? (
+                          <img 
+                            src={friend.profileImage} 
+                            alt={friend.displayName}
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <User size={40} weight="fill" className="text-white" />
+                        )}
                       </div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">
                         {friend.displayName}
@@ -108,8 +116,16 @@ export function LettersSection() {
               <Card className="border-2 border-primary shadow-2xl">
                 <CardContent className="p-8">
                   <div className="text-center mb-6">
-                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4">
-                      <User size={48} weight="fill" className="text-white" />
+                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-4 overflow-hidden">
+                      {selectedFriend.profileImage ? (
+                        <img 
+                          src={selectedFriend.profileImage} 
+                          alt={selectedFriend.displayName}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : (
+                        <User size={48} weight="fill" className="text-white" />
+                      )}
                     </div>
                     <h3 className="text-2xl font-bold text-foreground mb-2">
                       {selectedFriend.displayName}
