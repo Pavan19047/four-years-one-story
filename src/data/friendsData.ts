@@ -14,24 +14,26 @@ export interface Friend {
 export const friends: Friend[] = [
   {
     id: "friend1",
-    displayName: "Friend One",
-    nickname: "The Mastermind",
-    secretCode: "code123",
+    displayName: "Vishwa Chowl",
+    nickname: "Nam D Boss Friend",
+    secretCode: "jalgara",
     letterTitle: "To the one who always had the answers",
     letterText: `Dear Friend,
 
-Where do I even begin? Four years ago, we walked into that classroom as strangers, nervously clutching our notebooks and wondering what engineering would throw at us. Today, as I write this, I realize that every late night, every impossible deadline, and every moment of doubt was made bearable because you were there.
+Where do I even begin? Four years ago, we walked into that classroom as strangers, nervously clutching our notebooks and wondering what engineering would throw at us. 
 
-You were the one who could debug code at 3 AM while the rest of us were ready to give up. You were the one who explained concepts so clearly that suddenly everything made sense. But more than that, you were the friend who checked in, who made sure we all ate, who turned stressful situations into memorable adventures.
+At 5th sem, we became the closest, you were the one who introduced me to these girls, and from there my life had a major turning point where i fell in love with her 🫠.
 
-I hope you know how much your presence meant. The way you balanced brilliance with kindness, the way you never made anyone feel small for not knowing something, the way you celebrated everyone's victories as your own—these are the things I'll carry with me forever.
+That is one whole disaster, things have been cool now, but i would never forget those valorant, COD games we played, series we would discuss in class, especially Lucifer and stranger things. And my anime journey also
 
-As we move forward into whatever life has planned, I want you to know that you made these four years unforgettable. Thank you for being my friend, my mentor, and my partner in this beautiful chaos.
+started coz of you. Thanks for changing my life and making it more entertaining
+
+As we move forward into whatever life has planned, I want you to know that you made these four years unforgettable. Thank you for being my friend, my in game partner in this beautiful chaos.
 
 Here's to all the memories we made, and all the ones still waiting for us.
 
 With love and gratitude,
-Your Friend`,
+D Boss`,
     profileImage: "/images/friend1.jpg",
     traits: [
       "Most likely to solve a crisis with calm logic",
