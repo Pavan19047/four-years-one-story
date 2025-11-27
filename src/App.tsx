@@ -2,8 +2,6 @@ import { Toaster } from "@/components/ui/sonner"
 import { Navbar } from "@/components/Navbar"
 import { HeroSection } from "@/components/HeroSection"
 import { LettersSection } from "@/components/LettersSection"
-import { GallerySection } from "@/components/GallerySection"
-import { TimelineSection } from "@/components/TimelineSection"
 import { FriendsSection } from "@/components/FriendsSection"
 import { StatsSection } from "@/components/StatsSection"
 import { ClosingSection } from "@/components/ClosingSection"
@@ -16,8 +14,6 @@ function App() {
       <main>
         <HeroSection />
         <LettersSection />
-        <GallerySection />
-        <TimelineSection />
         <FriendsSection />
         <StatsSection />
         <ClosingSection />

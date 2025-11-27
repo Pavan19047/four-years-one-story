@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react"
 import { Button } from "./ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet"
-import { List, Heart, Images, Clock, Users, ChartBar, ChatCircleText } from "@phosphor-icons/react"
+import { List, Heart, Users, ChartBar, ChatCircleText } from "@phosphor-icons/react"
 
 const navItems = [
   { id: "letters", label: "Letters", icon: Heart },
-  { id: "gallery", label: "Memories", icon: Images },
-  { id: "timeline", label: "Journey", icon: Clock },
   { id: "friends", label: "Friends", icon: Users },
   { id: "stats", label: "Stats", icon: ChartBar },
   { id: "closing", label: "Closing", icon: ChatCircleText },

@@ -145,23 +145,6 @@ export function FriendsSection() {
                     ))}
                   </ul>
                 </div>
-
-                <div>
-                  <h4 className="text-lg font-semibold text-foreground mb-2">
-                    Shared Memories
-                  </h4>
-                  <div className="space-y-3">
-                    {friend.sharedMemories.map((memory, idx) => (
-                      <Card key={idx} className="bg-muted/50">
-                        <CardContent className="p-4">
-                          <p className="text-foreground leading-relaxed">
-                            {memory}
-                          </p>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </div>
               </div>
             </div>
           )}

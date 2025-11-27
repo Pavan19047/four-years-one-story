@@ -83,7 +83,7 @@ export function ClosingSection() {
               <div className="mt-12 pt-8 border-t-2 border-primary/20">
                 <blockquote className="text-center italic text-xl text-muted-foreground">
                   "How lucky I am to have something that makes saying goodbye so hard."
-                  <footer className="text-sm mt-2 text-muted-foreground/70">— Winnie the Pooh</footer>
+                  <footer className="text-sm mt-2 text-muted-foreground/70">— Pavan</footer>
                 </blockquote>
               </div>
 
@@ -92,7 +92,7 @@ export function ClosingSection() {
                   With all my love,
                 </p>
                 <p className="text-foreground font-semibold text-lg mt-2">
-                  [Your Name]
+                  Pavan
                 </p>
               </div>
             </CardContent>
